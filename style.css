@@ -1,0 +1,28 @@
+.img_fundo{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color:  rgb(255, 122, 122) ;
+}
+
+.titulo{
+    color: white;
+}
+
+.txt{
+    color: white;
+}
+
+.box_valor{
+    margin: 0 0 0 0;
+}
+
+.valor{
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    height: 65px;
+}
+
+.box_form{
+    background-color: white;
+    width: 35%;
+    height: 430px;
+}
