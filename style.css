@@ -47,5 +47,18 @@ html, body{
 
 .font{
     font-size: 12px;
-
 }
+
+.form_control small{
+    visibility: hidden;
+}
+
+/*Erro e sucesso*/
+
+.form_control.error small{
+   visibility: visible;
+}
+
+.form_control.success small{
+    visibility: visible;
+ }
