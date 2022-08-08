@@ -55,10 +55,10 @@ html, body{
 
 /*Erro e sucesso*/
 
-.form_control.error small{
+.form-control.error small{
    visibility: visible;
 }
 
-.form_control.success small{
+.form-control.success small{
     visibility: visible;
  }
