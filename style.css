@@ -30,7 +30,7 @@ html, body{
     height: 430px;
 }
 
-.color{
+.botao{
     background-color:rgb(56, 204, 140) ;
     color: white;
     border-radius: 5px;
@@ -53,6 +53,10 @@ html, body{
     visibility: hidden;
 }
 
+.span{
+    color: hsl(0, 100%, 74%) ;
+}
+
 /*Erro e sucesso*/
 
 .form-control.error small{
@@ -61,4 +65,25 @@ html, body{
 
 .form-control.success small{
     visibility: visible;
+ }
+
+ @media screen and (max-width:650px){
+    .titulo{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .txt{
+        padding-bottom: 30px;
+    }
+
+    .height{
+        height: auto;
+    }
+
+    .form_resposi{
+        margin-bottom: 20px;
+    }
  }
